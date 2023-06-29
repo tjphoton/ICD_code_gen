@@ -16,7 +16,7 @@ To install this app:
 
 Clone this repository:
 ```bash
-git clone https://github.com/your-github-username/icd10-codes-suggestion.git
+git clone https://github.com/tjphoton/ICD_code_gen.git
 ```
 
 Navigate into the cloned repository:
@@ -41,7 +41,7 @@ OPENAI_API_KEY=your-openai-api-key
 Run the app:
 
 ```bash
-streamlit run icd10_codes_suggestion.py
+gradio app.py
 ```
 A browser window should open displaying the app.
 
